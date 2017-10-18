@@ -3,12 +3,13 @@
 
 
 import time
+import schedule
 
 import picamera
 
-VIDEO_DAYS = 1
+VIDEO_DAYS = 7
 
-FRAMES_PER_HOUR = 24
+FRAMES_PER_HOUR = 12
 
 FRAMES = FRAMES_PER_HOUR * 24 * VIDEO_DAYS
 
